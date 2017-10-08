@@ -12,6 +12,16 @@
 /**************/
 /* BASE RULES */
 /**************/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -86px
+}
 
 html {
   font-size: 100%;
@@ -266,7 +276,6 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
     font-size: 15px;
   }
 }
@@ -276,8 +285,11 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  height: 86px;
 }
-
+.push {
+  height: 86px;
+}
 footer {
   padding: 20px 0;
   text-align: center;
