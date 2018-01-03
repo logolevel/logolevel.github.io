@@ -1,1 +1,9 @@
 /* your styles go here */
+.flex-space-between {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
